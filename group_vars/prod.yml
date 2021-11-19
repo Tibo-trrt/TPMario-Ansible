@@ -1,0 +1,7 @@
+---
+ansible_user: vagrant
+ansible_password: "{{ vault_ansible_password }}"
+ansible_ssh_extra_args: '-o StrictHostKeyChecking=no'
+port: 8090
+welcome: Bienvenue sur le tp secu2 {{ ansible_host}}!
+afip: Salut TPSECU2!
